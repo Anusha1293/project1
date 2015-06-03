@@ -20,7 +20,7 @@ def yesno(string, arr):
     string1=string*arr[1]
     p=arr[0]
     q=arr[1]
-    if(string1[p-1]!=string1[q-1]):
+    if(string1[p-1]==string1[q-1]):
         return "Yes yhis is one"
     else:
         return "No"
