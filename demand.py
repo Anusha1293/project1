@@ -3,7 +3,7 @@ def ash():
     u=len(t)
     f=input()
     g=[]
-    for i in range(f):
+    //for i in range(f):
         v=raw_input()
         
         n=v.split(' ')
