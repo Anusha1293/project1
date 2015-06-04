@@ -20,9 +20,9 @@ def yesno(string, arr):
     string1=string*arr[1]
     p=arr[0]
     q=arr[1]
-<<<<<<< HEAD
-    if(string1[p-1]<=string1[q-1]):
-=======
+
+    if(string1[p-1]==string1[q-1]):
+
     if(string1[p-1]==string1[q-1]):
 >>>>>>> baf892ff586890d3420097eaf735824b2150547f
         return "Yes yhis is one"
